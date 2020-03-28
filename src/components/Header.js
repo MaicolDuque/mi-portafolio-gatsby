@@ -11,7 +11,8 @@ export default () => (
           <h1 className="font-bold text-purple-700 text-6xl">¡Hola! Soy Maicol Duque</h1>
           <p className="text-xl font-light">Desarrollador de aplicaciones web full stack.</p>
         </div>
-        <img src={Ilustration} alt="Software developer" style={ {height: "300px" }}></img>
+        {/* Extracted Ilustration of: https://undraw.co/ */}
+        <img src={Ilustration} alt="Software developer" style={ {height: "300px" }}></img>  
       </div>
 
       <div>
