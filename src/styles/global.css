@@ -12,7 +12,7 @@
   columns: 3;
   -moz-columns: 3;
   column-rule: 1px solid;
-  @apply py-4;
+  @apply p-4;
 }
 
 .repos-list li{
