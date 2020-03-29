@@ -1,0 +1,57 @@
+{
+  "data": {
+    "email": "maicolduque01@gmail.com",
+    "username": "MaicolDuque",
+    "certificates": [
+      {
+        "score": 10,
+        "code": "43c46d80-bab8-4446-8245-92ac5f5283f7",
+        "title": "Curso Profesional de JavaScript"
+      },
+      {
+        "score": 9,
+        "code": "32250bcb-a539-4a4f-928e-6119994a3950",
+        "title": "Curso Profesional de Python"
+      }
+    ],
+    "articles": [],
+    "courses": [
+      {
+        "title": "Bytes",
+        "progress": "0.0",
+        "url": "http://codigofacilito.com/courses/15"
+      },
+      {
+        "title": "Curso Profesional de JavaScript",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/javascript-profesional"
+      },
+      {
+        "title": "JavaScript y el DOM",
+        "progress": "3.0",
+        "url": "http://codigofacilito.com/courses/javascript-dom"
+      },
+      {
+        "title": "Curso Profesional de Python",
+        "progress": "100.0",
+        "url": "http://codigofacilito.com/courses/python-profesional"
+      },
+      {
+        "title": "Crea un sitio personal con Gatsby",
+        "progress": "50.0",
+        "url": "http://codigofacilito.com/courses/sitio-persional-gatsby"
+      }
+    ],
+    "finished_courses": [
+      {
+        "title": "Curso Profesional de JavaScript",
+        "url": "http://codigofacilito.com/courses/javascript-profesional"
+      },
+      {
+        "title": "Curso Profesional de Python",
+        "url": "http://codigofacilito.com/courses/python-profesional"
+      }
+    ]
+  },
+  "errors": []
+}
