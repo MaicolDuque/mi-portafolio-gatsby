@@ -24,7 +24,7 @@ export default () => {
     }
   }  
   `)
-  console.log(data)
+  
   return (
     <section>
       <div className="mt-24">
@@ -33,12 +33,14 @@ export default () => {
           <Posts
             card={Certificate} 
             data={data.codigofacilitoJson.data.certificates} 
-            title="Mis certificados online CódigoFacilits"
+            title="Mis certificados online CódigoFacilito"
+            key="1"
           />
           <Posts
             card={Course} 
             data={data.codigofacilitoJson.data.courses} 
             title="Mis cursos"
+            key="2"
           />
           
         </div>

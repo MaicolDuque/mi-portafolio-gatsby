@@ -1,0 +1,22 @@
+{
+  "slug": "presencial",
+  "title": "Formación Académica",
+  "description": "Formación académica, grados de estudio e instituciones a las que asistí.",
+  "items": [
+    {
+      "name": "Politécnico Colombiano Jaime Isaza Cadavid",
+      "degree": "Ingeniería informática",
+      "year": "2020"
+    },
+    {
+      "name": "Servicio Nacional de Aprendizaje (SENA)",
+      "degree": "Técnico en sistemas",
+      "year": "2014"
+    },
+    {
+      "name": "Institución Educativa Alfonso López Pumarejo",
+      "degree": "Bachiller",
+      "year": "2011"
+    }
+  ]
+}

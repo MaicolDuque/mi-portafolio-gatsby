@@ -1,0 +1,59 @@
+{
+  "slug": "online",
+  "title": "Cursos en linea",
+  "description": "Cursos finalizados en plataformas de educación en internet.",
+  "items": [
+    {
+      "name": "Curso Profesional de JavaScript",
+      "url": "https://codigofacilito.com/cursos/javascript-profesional"
+    },
+    {
+      "name": "Fundamentos de JavaScript",
+      "url": "https://platzi.com/clases/fundamentos-javascript/"
+    },
+    {
+      "name": "Curso Profesional de VueJS",
+      "url": "https://platzi.com/clases/vuejs-profesional/"
+    },
+    {
+      "name": "Vue2 y Firebase",
+      "url": "https://wmedia.teachable.com/p/aprende-vue2-y-firebase-paso-a-paso"
+    },
+    {
+      "name": "Curso Profesional de Git y GitHub",
+      "url": "https://platzi.com/clases/git-github/"
+    },
+    {
+      "name": "Master en Frameworks JavaScript",
+      "url": "https://www.udemy.com/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/"
+    },
+    {
+      "name": "Docker, de principiante a experto",
+      "url": "https://www.udemy.com/course/docker-de-principiante-a-experto/"
+    },
+    {
+      "name": "Spring Framework 5",
+      "url": "https://www.udemy.com/course/spring-framework-5/"
+    },
+    {
+      "name": "Learn RabbitMQ: Asynchronous Messaging with Java and Spring",
+      "url": "https://www.udemy.com/course/learn-rabbitmq-asynchronous-messaging-with-java-and-spring/"
+    },
+    {
+      "name": "Scala & Functional Programming for Beginners",
+      "url": "https://www.udemy.com/course/rock-the-jvm-scala-for-beginners/"
+    },
+    {
+      "name": "Advanced Scala and Functional Programming",
+      "url": "https://www.udemy.com/course/advanced-scala/"
+    },
+    {
+      "name": "Curso Profesional de Python",
+      "url": "https://codigofacilito.com/cursos/python-profesional"
+    },
+    {
+      "name": "Sitio Personal Gatsby",
+      "url": "https://codigofacilito.com/cursos/sitio-persional-gatsby"
+    }
+  ]
+}

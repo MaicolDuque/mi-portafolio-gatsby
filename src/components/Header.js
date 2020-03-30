@@ -3,7 +3,7 @@ import Ilustration from '../img/developer.svg'
 import Form from './Contact.form'
 
 export default () => (
-  <header className="bg-gray-100">
+  <header className="bg-purple-100 border-solid border-b-2 ">
     <div className="container mx-auto p-12 max-w-6xl ">
 
       <div className="flex justify-center items-center">

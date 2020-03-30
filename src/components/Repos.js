@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 // import repos from '../data/repos'
 import Repo from '../components/Repo'
+import imgGH from '../img/mark-github.svg'
 
 export default () => {
 
@@ -19,7 +20,8 @@ export default () => {
     }
     async function fetchRepos(){
       const response  = await fetch("https://api.github.com/users/MaicolDuque/repos");
-      myRepos   = await response.json();        
+      myRepos   = await response.json();  
+      myRepos   = myRepos.slice(1,16);      
       setReposCount(myRepos.length)
       sessionStorage.setItem("repos", JSON.stringify(myRepos))    
       setRepos(myRepos);
@@ -30,7 +32,7 @@ export default () => {
   return (
     <div className="max-w-4xl mx-auto mt-12">
       <header className="text-center">
-        <h2 className="text-3xl font-bold truncate">Mi trabajo en Open Source</h2>
+        <h2 className="text-3xl font-bold truncate">Mi trabajo en Open Source</h2> <span><img src={imgGH} alt="GitHub" className="inline-block" style={{width: "3%"}}></img></span>
         <p>Colaboración y contribución de código</p>
       </header>
       <ul className="repos-list">

@@ -16,7 +16,7 @@ export default (props) => {
           </a>
         </h4>
         <div className="text-center mt-4">
-          <a className="btn" href={post.link}>Leer</a>
+          <a className="btn" href={post.link} target="_blank" rel="noopener noreferrer">Leer</a>
         </div>
       </div>
     </div>

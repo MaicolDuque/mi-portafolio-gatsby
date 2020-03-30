@@ -4,7 +4,7 @@ export default (props) => (
   <li className="flex items-center">
 
     <div className="w-9/12 overflow-x-hidden">
-      <h4 className="text-pink-600 font-bold">
+      <h4 className=" font-bold" style={{color: "#6c63ff"}}>
         {props.repo.name}
       </h4>
       <p className="text-sm text-gray-800 overflow-y-hidden" style={{height: "1.5em"}}>

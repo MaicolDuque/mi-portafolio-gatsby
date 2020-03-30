@@ -4,6 +4,9 @@
 
 @tailwind utilities;
 
+body {
+ @apply bg-gray-100;
+}
 .btn {
   @apply bg-purple-500 text-white font-bold rounded border-purple-700 py-2 px-4 border-b-4;
 }
@@ -17,4 +20,11 @@
 
 .repos-list li{
   break-inside: avoid-column;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  background-color: #6c63ff;
+  @apply text-white text-xs p-2 inline-block
 }
