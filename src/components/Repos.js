@@ -32,7 +32,7 @@ export default () => {
   return (
     <div className="max-w-4xl mx-auto mt-12">
       <header className="text-center">
-        <h2 className="text-3xl font-bold truncate">Mi trabajo en Open Source</h2> <span><img src={imgGH} alt="GitHub" className="inline-block" style={{width: "3%"}}></img></span>
+        <h2 className="text-3xl font-bold ">Mi trabajo en Open Source</h2> <span><img src={imgGH} alt="GitHub" className="inline-block" style={{width: "3%"}}></img></span>
         <p>Colaboración y contribución de código</p>
       </header>
       <ul className="repos-list">

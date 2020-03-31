@@ -6,7 +6,7 @@ import Medium from "../components/Medium.js"
 import EducationNav from '../components/Education-nav'
 
 export default () => (
-  <div>
+  <div className="m-3">
     <Header />
     <EducationNav />
     <Repos />

@@ -3,7 +3,7 @@ import React from 'react'
 export default (props) => {
   let post = props.element;
   return (
-    <div className="shadow  bg-white mr-4 rounded flex-shrink-0 " style={{width: "300px"}}>
+    <div className="shadow  bg-white mr-4 rounded flex-shrink-0" style={{width: "300px"}}>
       <header className="h-40 bg-cover bg-center" style={{ backgroundImage: `url(${post.thumbnail})` }}>
 
       </header>
