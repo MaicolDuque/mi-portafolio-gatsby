@@ -27,7 +27,7 @@ export default (props) => {
       <Posts
         data={posts} 
         card={Post} 
-        title="Mis publicaciones en Medium"
+        title="Mis publicaciones en Medium"        
       />
     </div>
 

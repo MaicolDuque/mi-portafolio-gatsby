@@ -8,13 +8,15 @@ body {
  @apply bg-gray-100;
 }
 .btn {
-  @apply bg-purple-500 text-white font-bold rounded border-purple-700 py-2 px-4 border-b-4;
+  background-color: #2d564e;
+  border: #2d564e;
+  @apply text-white font-bold rounded py-2 px-4 border-b-4;
 }
 
 .repos-list {
   columns: 3;
   -moz-columns: 3;
-  column-rule: 1px solid;
+  column-rule: 1px solid #2d564e;
   @apply p-4;
 }
 
@@ -25,6 +27,32 @@ body {
 .vertical-text {
   writing-mode: vertical-rl;
   text-orientation: upright;
-  background-color: #6c63ff;
+  background-color: #2d564e;
   @apply text-white text-xs p-2 inline-block
+}
+
+
+#image-profile {
+  border-radius: 15px;
+}
+
+.colorLetra {
+  color: #2d564e;
+}
+
+.backgroundVerde {
+  background-color: #2d564e;
+}
+
+.border-color {
+  border-top: 18px solid #2d564e;
+}
+
+.border-titles {
+  border-bottom: 5px solid #2d564e;
+}
+
+.btn-ver:hover {
+  font-weight: bold;
+  color: #2d564e;
 }

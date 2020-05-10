@@ -20,7 +20,7 @@ export default (props) => {
 
   return (
     <div className="max-w-4xl mx-auto mt-20">
-      <h2 className="text-3xl font-bold text-center">Conoce sobre mi formación educactiva</h2>
+      <h2 className="text-3xl font-bold text-center colorLetra border-titles">Conoce sobre mi formación educactiva</h2>
       <nav className=" flex justify-center mt-8 flex-wrap">
         {
           data.allEducationJson.edges.map((element, index) => {
@@ -33,7 +33,7 @@ export default (props) => {
                     <p className="font-light">
                       {node.description}
                     </p>
-                    <Link to={`/${node.slug}`} className="btn inline-block mt-4 self-end">
+                    <Link to={`/${node.slug}`} className="btn inline-block mt-4 self-end ">
                       Ir
                     </Link>
                   </div>

@@ -1,7 +1,7 @@
 
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<strong>URL Netlify: https://peaceful-mclean-861498.netlify.com/<strong>
+<strong>URL Netlify: <a target="_blank" href="https://peaceful-mclean-861498.netlify.app/">https://peaceful-mclean-861498.netlify.app/</a><strong>
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />

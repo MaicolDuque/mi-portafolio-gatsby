@@ -6,7 +6,7 @@ export default (props) => {
   const pageData = props.data.educationJson;
   return (
     <div className="">
-      <header className="py-12 border-purple-500 border-solid border-t-8">
+      <header className="py-12 border-color">
         <div className="max-w-4xl mx-auto">
           <Link to="/"  className="uppercase underline text-pink-500">Regresar al incio</Link>
           <h2 className="capitalize text-5xl font-bold text-left">{pageData.title}</h2>
