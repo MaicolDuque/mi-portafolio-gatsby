@@ -9,7 +9,7 @@ export default (props) => {
       <header className="py-12 border-color">
         <div className="max-w-4xl mx-auto">
           <Link to="/"  className="uppercase underline text-pink-500">Regresar al incio</Link>
-          <h2 className="capitalize text-5xl font-bold text-left">{pageData.title}</h2>
+          <h2 className="capitalize text-5xl font-bold text-left colorLetra">{pageData.title}</h2>
           <p className="text-xl text-left">
             {pageData.description}
           </p>
@@ -25,7 +25,7 @@ export default (props) => {
                   <div className="flex-1">
                     <h3>{item.name}</h3>
                     {item.degree &&
-                      <span className="inline-block p-2 bg-purple-100 text-purple-700">
+                      <span className="inline-block p-2 bg-green-100 text-green-700">
                         {item.degree}
                       </span>
                     }

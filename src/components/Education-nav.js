@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
-
+import Icon from './Icon'
 
 
 export default (props) => {
@@ -19,8 +19,9 @@ export default (props) => {
   `)
 
   return (
-    <div className="max-w-4xl mx-auto mt-20">
-      <h2 className="text-3xl font-bold text-center colorLetra border-titles">Conoce sobre mi formación educactiva</h2>
+    <div className="max-w-4xl mx-auto mt-20">      
+      <h2 className="text-3xl font-bold text-center mx-auto max-w-2xl colorLetra border-titles">
+      <Icon icon="🎓" size="1.25rem" />Conoce sobre mi formación educactiva<Icon icon="🎓" size="1.25rem" /></h2>
       <nav className=" flex justify-center mt-8 flex-wrap">
         {
           data.allEducationJson.edges.map((element, index) => {

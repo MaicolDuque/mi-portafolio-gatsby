@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 // import repos from '../data/repos'
 import Repo from '../components/Repo'
-import imgGH from '../img/mark-github.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default () => {
 
@@ -32,7 +33,11 @@ export default () => {
   return (
     <div className="max-w-4xl mx-auto mt-12">
       <header className="text-center">
-        <h2 className="text-3xl font-bold colorLetra border-titles">Mi trabajo en Open Source</h2> <span><img src={imgGH} alt="GitHub" className="inline-block" style={{width: "3%"}}></img></span>
+        <h2 className="text-3xl font-bold colorLetra border-titles mx-auto max-w-2xl">
+          <FontAwesomeIcon icon={faGithub} size="xs" color="black"/> 
+          &nbsp; Mi trabajo en Open Source &nbsp; 
+          <FontAwesomeIcon icon={faGithub} size="xs" color="black" />
+        </h2>         
         <p>Colaboración y contribución de código</p>
       </header>
       <ul className="repos-list">
