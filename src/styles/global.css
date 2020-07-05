@@ -56,3 +56,19 @@ body {
   font-weight: bold;
   color: #2d564e;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.icon-skill{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.title-skill{
+  text-align: center;
+  font-size: 0.8em;
+}

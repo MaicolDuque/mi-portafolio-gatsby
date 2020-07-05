@@ -5,7 +5,7 @@ export default () => (
   <div className="max-w-3xl mx-auto mt-20">
     <h2 className="text-3xl font-bold text-center mx-auto max-w-2xl colorLetra border-titles mb-4">
         <Icon icon="👨🏻‍💻" size="1.25rem" />
-          Sobre mí
+          Acerca de mí
         <Icon icon="👨🏻‍💻" size="1.25rem" />
     </h2>
 

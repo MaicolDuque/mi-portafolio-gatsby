@@ -6,6 +6,7 @@ import Repos from '../components/Repos.js'
 import Medium from "../components/Medium.js"
 import EducationNav from '../components/Education-nav'
 import AboutMe from "../components/AboutMe.js"
+import Skills from "../components/Skills.js"
 
 export default () => (
   <div className="m-3">
@@ -15,6 +16,7 @@ export default () => (
 
     <Header />
     <AboutMe />
+    <Skills />
     <EducationNav />
     <Repos />
     {/* <Codigofacilito /> */}
