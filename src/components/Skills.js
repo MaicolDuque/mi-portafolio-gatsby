@@ -38,7 +38,7 @@ export default () => (
         <Icon icon="👨🏻‍💻" size="1.25rem" />
     </h2>
 
-    <div className="bg-white p-4 rounded-md shadow-md">
+    <div className="bg-section p-4 rounded-md shadow-md">
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 ">
           {
             skills.map( skill => <Skill icon={skill.icon} title={skill.title} /> )

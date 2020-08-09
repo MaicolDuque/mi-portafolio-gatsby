@@ -4,7 +4,7 @@ import Repo from '../components/Repo'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
-export default () => {
+export default ({ color }) => {
 
   const [repos, setRepos] = useState([]);
   const [reposCount, setReposCount] = useState([]);
@@ -34,11 +34,11 @@ export default () => {
     <div className="max-w-4xl mx-auto mt-12">
       <header className="text-center">
         <h2 className="text-3xl font-bold colorLetra border-titles mx-auto max-w-2xl">
-          <FontAwesomeIcon icon={faGithub} size="xs" color="black"/> 
+          <FontAwesomeIcon icon={faGithub} size="xs" color={color}/> 
           &nbsp; Mi trabajo en Open Source &nbsp; 
-          <FontAwesomeIcon icon={faGithub} size="xs" color="black" />
+          <FontAwesomeIcon icon={faGithub} size="xs" color={color} />
         </h2>         
-        <p>Colaboración y contribución de código</p>
+        <p className="colorInfo">Colaboración y contribución de código</p>
       </header>
       <ul className="repos-list">
         {

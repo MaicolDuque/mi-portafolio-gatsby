@@ -5,8 +5,46 @@
 @tailwind utilities;
 
 body {
- @apply bg-gray-100;
+ background-color: var(--bg);
 }
+
+.isDark {
+  --bg: #1d2029;
+  --bgSecundary: #252b43;
+  --colorText: white;
+  --colorInfo: white;
+  --colorSubtitle: white;
+}
+
+.isLight {
+  --bg: #f7fafc;
+  --bgSecundary: #fff;
+  --colorText: #2d564e;
+  --colorInfo: black;
+  --colorSubtitle: black;
+}
+
+.bg-banner {
+  background-color: var(--bgSecundary);
+}
+
+.colorSubtitle {
+  color: var(--colorSubtitle);
+}
+
+.colorInfo {
+  color: var(--colorInfo);
+}
+
+.bg-section {
+  background-color: var(--bgSecundary);
+}
+
+.shadow-custom {
+  box-shadow: 0 1px 2px 2px #e2e2e2;
+  border-radius: 4px;
+}
+
 .btn {
   background-color: #2d564e;
   border: #2d564e;
@@ -28,7 +66,9 @@ body {
   writing-mode: vertical-rl;
   text-orientation: upright;
   background-color: #2d564e;
-  @apply text-white text-xs p-2 inline-block
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
 
@@ -37,7 +77,7 @@ body {
 }
 
 .colorLetra {
-  color: #2d564e;
+  color: var(--colorText);
 }
 
 .backgroundVerde {
@@ -71,4 +111,55 @@ ul {
 .title-skill{
   text-align: center;
   font-size: 0.8em;
+}
+
+.dark-mode-checkbox {
+  display: none;
+}
+
+.dark-mode-checkbox:checked ~ .switch::before {  
+  transform: translateX(30px);
+}
+
+.switch {
+  position: relative;
+  height: 29px;
+  display: block;
+  border-radius: 20px;
+  background-color: black;
+  width: 59px;
+  padding: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  user-select: none;
+}
+
+.switch::before {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 28px;
+  background: white;
+  border-radius: 50%;
+  transform: translateX(0);
+  transition: .3s;
+  will-change: transform;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 5px 1px black;
+  position: absolute;
+  z-index: 10;
+}
+
+.content-dark {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  width: 34%;
+}
+
+.content-light {
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  width: 35%;
 }
