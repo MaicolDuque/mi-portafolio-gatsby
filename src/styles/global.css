@@ -14,6 +14,7 @@ body {
   --colorText: white;
   --colorInfo: white;
   --colorSubtitle: white;
+  --colorRepo: white;
 }
 
 .isLight {
@@ -22,6 +23,7 @@ body {
   --colorText: #2d564e;
   --colorInfo: black;
   --colorSubtitle: black;
+  --colorRepo: #0366d6;
 }
 
 .bg-banner {
@@ -41,14 +43,22 @@ body {
 }
 
 .shadow-custom {
-  box-shadow: 0 1px 2px 2px #e2e2e2;
-  border-radius: 4px;
+  border-radius: 6px;
+  border: 1px solid #e1e4e8;
 }
 
 .btn {
   background-color: #2d564e;
   border: #2d564e;
   @apply text-white font-bold rounded py-2 px-4 border-b-4;
+}
+
+.color-repo {
+  color: var(--colorRepo);
+}
+
+.color-repo:hover {
+  text-decoration: underline;
 }
 
 .repos-list {
@@ -162,4 +172,32 @@ ul {
   top: 3px;
   right: 4px;
   width: 35%;
+}
+
+.fondo-JavaScript {
+  background-color: #f1e05a;
+}
+
+.fondo-CSS {
+  background-color: #563d7c;
+}
+
+.fondo-Java {
+  background-color: #b07219;
+}
+
+.fondo-PHP {
+  background-color: #4F5D95;
+}
+
+.fondo-Vue {
+  background-color: #41b883;
+}
+
+.fondo-TypeScript {
+  background-color: #007acc;;
+}
+
+.fondo-HTML {
+  background-color: #e34c26;
 }

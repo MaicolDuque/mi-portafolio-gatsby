@@ -16,14 +16,14 @@ export default ({ color }) => {
     if(data){
       myRepos = JSON.parse(data);
       setReposCount(myRepos.length)
-      myRepos   = myRepos.slice(1,16);
+      myRepos   = myRepos.slice(0,12);
       return setRepos(myRepos);
     }
     async function fetchRepos(){
       const response  = await fetch("https://api.github.com/users/MaicolDuque/repos");
       myRepos   = await response.json();  
       setReposCount(myRepos.length)
-      myRepos   = myRepos.slice(1,16);      
+      myRepos   = myRepos.slice(0,12);      
       sessionStorage.setItem("repos", JSON.stringify(myRepos))    
       setRepos(myRepos);
     }
@@ -40,7 +40,7 @@ export default ({ color }) => {
         </h2>         
         <p className="colorInfo">Colaboración y contribución de código</p>
       </header>
-      <ul className="repos-list">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3">
         {
           repos.map((repo, index) => {
             return <Repo key={index} repo={repo} />
