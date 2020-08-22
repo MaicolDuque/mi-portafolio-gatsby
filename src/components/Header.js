@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Ilustration from '../img/MaicolDuque.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import light from '../img/light.png'
 import dark from '../img/dark.png'
 
@@ -46,22 +47,32 @@ export default ({ changeMode }) => {
         <div className="flex justify-center items-center flex-wrap">
 
 
-          <div className="md:flex-1">
-            <h1 className="font-bold colorLetra text-5xl">¡Hola! Soy Maicol Duque </h1>
-            <p className="text-xl font-light colorSubtitle">Desarrollador de aplicaciones web full stack.</p>
+          <div className="md:flex-1 mb-4">
+            <h1 className="font-bold colorLetra text-4xl sm:text-5xl text-center sm:text-left">¡Hola! Soy Maicol Duque </h1>
+            <ul>
+              <li className="text-xl font-light colorSubtitle">Desarrollador de aplicaciones web full stack.</li>
+              <li className="text-md font-light colorSubtitle">                
+                <FontAwesomeIcon key="location" icon={faMapMarkerAlt} size="1x" color={colorIcon} />               
+                <span className="ml-5">Medellín, Colombia</span>
+              </li>
+              <li className="text-md font-light colorSubtitle">
+                <FontAwesomeIcon key="email" icon={faEnvelope} size="1x" color={colorIcon} />
+                <a href="mailto:maicolduque01@gmail.com" className="ml-4 my-email">maicolduque01@gmail.com</a>
+              </li>              
+            </ul>                                      
           </div>
           {/* Extracted Ilustration of: https://undraw.co/ */}
           <img src={Ilustration} alt="Software developer" id="image-profile" style={{ height: "300px" }}></img>
         </div>
         <div className="flex justify-center mt-5">
           <a href="https://github.com/MaicolDuque" target="_blank" className="mr-3" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGithub} size="2x" cursor="pointer" color={colorIcon} />
+            <FontAwesomeIcon key="github" icon={faGithub} size="2x" cursor="pointer" color={colorIcon} />
           </a>
           <a href="https://twitter.com/maicolduque24" target="_blank" className="mr-3" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faTwitter} size="2x" cursor="pointer" color={colorIcon} />
+            <FontAwesomeIcon key="twitter" icon={faTwitter} size="2x" cursor="pointer" color={colorIcon} />
           </a>
           <a href="https://www.linkedin.com/in/maicolduque/" target="_blank" className="mr-3" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} size="2x" cursor="pointer" color={colorIcon} />
+            <FontAwesomeIcon key="linkdin" icon={faLinkedin} size="2x" cursor="pointer" color={colorIcon} />
           </a>
         </div>
 

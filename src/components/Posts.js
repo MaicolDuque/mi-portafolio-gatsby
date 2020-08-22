@@ -8,10 +8,10 @@ export default (props) => (
        {props.title} 
        <Icon icon="📝" size="1.25rem" /> 
     </h2>
-    <div className="flex mt-8">
+    <div className="flex mt-8 flex-wrap justify-center sm:justify-start ">
       {
         props.data.map((el, index) => (
-          <props.card element={el} />
+          <props.card element={el} key={index} />
         ))
       }
     </div>

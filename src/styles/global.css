@@ -201,3 +201,8 @@ ul {
 .fondo-HTML {
   background-color: #e34c26;
 }
+
+.my-email:hover {  
+  color: var(--colorText);
+  transition: .3s color linear;
+}

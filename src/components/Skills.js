@@ -41,7 +41,7 @@ export default () => (
     <div className="bg-section p-4 rounded-md shadow-md">
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 ">
           {
-            skills.map( skill => <Skill icon={skill.icon} title={skill.title} /> )
+            skills.map( skill => <Skill icon={skill.icon} title={skill.title} key={skill.title} /> )
           }         
         </div>
     </div>
